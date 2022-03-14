@@ -4,7 +4,7 @@ tab2=(6 5 4 12)
 tab3=(14 7 5 7)
 compar=()
 tabFin=()
-
+# Ceci est un commentaire de test pour git
 for a in ${tab1[@]} ; do
 	for b in ${tab2[@]} ; do
 		if [ $a = $b ] ; then
